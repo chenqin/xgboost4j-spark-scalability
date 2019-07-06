@@ -9,7 +9,7 @@ PROJECT_DIR="$SCRIPT_DIR/../"
 
 cd $PROJECT_DIR;
 rm -rf xgboost_upstream;
-git clone --recursive git@github.com:CodingCat/xgboost.git xgboost_upstream
+git clone --recursive git@github.com:chenqin/xgboost.git xgboost_upstream
 cd $PROJECT_DIR/xgboost_upstream/jvm-packages; git checkout instrumentation
 
 if [[ "$OSTYPE" == "linux-gnu" ]]; then

@@ -1,6 +1,6 @@
 #!/bin/sh
 
-TARGET_URL=https://github.com/codingcat/xgboost.git
+TARGET_URL=https://github.com/chenqin/xgboost.git
 TARGET_BRANCH=master2
 
 # compile xgboost
